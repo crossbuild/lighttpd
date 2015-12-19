@@ -4,6 +4,7 @@ NEWS
 ====
 
 - 1.4.38
+  * [chunk] fix use after free / double free (fixes #2700)
   * [stat-cache] fix handling of collisions, might have returned wrong data (fixes #2669)
   * [core] allocate at least 4k buffer for incoming data
   * [core] fix search for header end if split across chunks (fixes #2670)
